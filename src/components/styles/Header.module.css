@@ -1,0 +1,104 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 0px 100px 0px;
+    gap: 500px;
+}
+
+.tel {
+    background-image: url(/public/carbon_phone.svg);
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 15px;
+}
+
+.buy {
+    background-image: url(/public/Buy.svg);
+    width: 26px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}   
+
+.profile {
+    background-image: url(/public/Add\ User.svg);
+    width: 26px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.wrapInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.navigation {
+    gap: 45px;
+    color: rgba(79, 79, 79, 1);
+}
+
+.wrapProfile {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-self: flex-end;
+}
+
+#serch {
+    width: 300px;
+    height: 35px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 5px 5px 15px;
+    background-color: rgb(241, 241, 241);
+}
+
+.spisok {
+    transform: rotate(180deg);
+}
+
+.spisok:hover {
+    transform: rotate(0deg);
+}
+
+.dropSel {
+    display: none;
+    position: relative;
+}
+
+.selectNav:hover .dropSel {
+    display: block;
+    position: absolute;
+    transform: translate(0px, 0px);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dropSel:hover {
+    display: block;
+}
+
+.dropSel > li:hover {
+    background-color: rgb(145, 255, 0);
+}
+
+.dropSel > li {
+    padding: 10px;
+    border-radius: 10px;
+}

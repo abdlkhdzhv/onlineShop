@@ -1,0 +1,4 @@
+.wrapApp {
+    display: flex;
+    flex-direction: column;
+}

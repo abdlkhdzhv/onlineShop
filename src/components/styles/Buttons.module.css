@@ -1,0 +1,12 @@
+.btnCatalog {
+    background-color: rgba(63, 207, 94, 1);
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.btnCatalog:active {
+    background-color: rgb(77, 239, 113);
+}
