@@ -6,7 +6,7 @@
 }
 
 .tel {
-    background-image: url('/onlineShop/public/carbon_phone.svg');
+    background-image: url(/onlineShop/carbon_phone.svg);
     width: 24px;
     height: 24px;
     border: none;
@@ -14,7 +14,7 @@
 }
 
 .buy {
-    background-image: url('/onlineShop/public/Buy.svg');
+    background-image: url(/onlineShop/Buy.svg);
     width: 26px;
     height: 25px;
     border: none;
@@ -22,7 +22,7 @@
 }   
 
 .profile {
-    background-image: url('/onlineShop/Add%20User.svg');
+    background-image: url(/onlineShop/Add%20User.svg);
     width: 26px;
     height: 25px;
     border: none;

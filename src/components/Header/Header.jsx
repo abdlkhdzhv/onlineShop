@@ -26,7 +26,7 @@ function Header() {
                 <Link to={'/feeders'} className='link'>Кормушки</Link>
                 </li>
                 <li>
-                  <Link to={'/'} className='link'>Главная страница</Link>
+                  <Link to={'/onlineShop'} className='link'>Главная страница</Link>
                 </li>
               </ul>
           </li>

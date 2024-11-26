@@ -15,19 +15,19 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: '/onlineShop/mixes',
+    path: '/mixes',
     element: <MixesRout />
   },
   {
-    path: '/onlineShop/kinds',
+    path: '/kinds',
     element: <KindsRout />
   },
   {
-    path: '/onlineShop/feed',
+    path: '/feed',
     element: <FeedRout />
   },
   {
-    path: '/onlineShop/feeders',
+    path: '/feeders',
     element: <FeedersRout />
   },
 ])
