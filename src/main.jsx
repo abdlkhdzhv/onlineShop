@@ -11,23 +11,23 @@ import store from './redux/store.js'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/onlineShop',
     element: <App />,
   },
   {
-    path: '/mixes',
+    path: '/onlineShop/mixes',
     element: <MixesRout />
   },
   {
-    path: 'kinds',
+    path: '/onlineShop/kinds',
     element: <KindsRout />
   },
   {
-    path: 'feed',
+    path: '/onlineShop/feed',
     element: <FeedRout />
   },
   {
-    path: 'feeders',
+    path: '/onlineShop/feeders',
     element: <FeedersRout />
   },
 ])
