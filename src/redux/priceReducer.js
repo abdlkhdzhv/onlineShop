@@ -16,7 +16,7 @@ const slice = createSlice({
         if(card.id === action.payload.cardId){
           return{
             ...card,
-            price: 5 * action.payload.weight
+            price: 5 * action.payload.weight + ' руб'
           }
         }
         return card
