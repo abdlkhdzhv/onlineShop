@@ -1,6 +1,5 @@
 import logo from "/лого.svg";
 import styles from "../styles/Header.module.css";
-import image from "/spisok.svg";
 import { Link } from "react-router-dom";
 
 
@@ -11,7 +10,7 @@ function Header() {
         <img src={logo} alt="" />
         <ul className={styles.navigation}>
           <li className={styles.selectNav}>
-            Каталог <img src={image} alt="" className={styles.spisok} />
+            Каталог 
               <ul className={styles.dropSel}>
                 <li>
                   <Link to={'/mixes'} className='link'>Готовые миксы</Link>
